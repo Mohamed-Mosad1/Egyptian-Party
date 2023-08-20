@@ -1,0 +1,50 @@
+@media screen and (max-width: 300px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+
+
+}
+@media (max-width: 1366px) {
+
+}
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+  .time {
+    padding: 20px 10px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  nav .navbar-toggler {
+    display: inline-block;
+  }
+  .time {
+    padding: 30px 10px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .time {
+    padding: 20px 10px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (max-height: 450px) {
+  #leftMenu a {
+      font-size: 18px;
+  }
+}
