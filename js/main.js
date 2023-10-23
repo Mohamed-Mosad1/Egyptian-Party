@@ -15,9 +15,8 @@ $(".closebtn").click(function () {
 $("#leftMenu a[href^='#']").click(function (e) {
   let aHref = e.target.getAttribute("href");
   let sectionOffset = $(aHref).offset().top;
-  $("html,body").animate({ scrollTop: sectionOffset }, 2000);
+  $("html,body").animate({ scrollTop: sectionOffset }, "slow");
 });
-
 let days = document.querySelector(".days");
 let hours = document.querySelector(".hours");
 let minutes = document.querySelector(".minutes");
